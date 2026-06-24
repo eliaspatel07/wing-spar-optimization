@@ -64,7 +64,9 @@ To test the validity of the 1D Euler-Bernoulli assumptions, the parametric model
 ```text
 ├── README.md               # Project landing page & executive summary
 ├── src/                    
-│   └── optimization_loop.m # MATLAB optimization code using fmincon
+│   └── wingsparOptimizationScript.m   # MATLAB optimization code using fmincon
 ├── cad/                    
-│   └── wing_spar.x_t       # Exported Parasolid/STEP CAD geometry
+│   └── WingSparParametricCAD(CorrectOrientation).m`  # Exported STEP CAD geometry
+├── fea/                    
+│   └── OptimizedWingSparFEA.mechdb   # ANSYS Static Structural file
 └── images/                 # Plots, CAD renders, and FEA heatmaps
