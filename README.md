@@ -68,5 +68,5 @@ To test the validity of the 1D Euler-Bernoulli assumptions, the parametric model
 ├── cad/                    
 │   └── WingSparParametricCAD(CorrectOrientation).step  # Exported STEP CAD geometry
 ├── fea/                    
-│   └── OptimizedWingSparFEA.mechdb   # ANSYS Static Structural file
+│   └── solution_information.txt    # Summary of FEA discretization & validation matrix
 └── images/                 # Plots, CAD renders, and FEA heatmaps
